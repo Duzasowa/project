@@ -1,0 +1,84 @@
+.navbar__body {
+  width: 100%;
+  height: 60px;
+  background-color: #262626;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+/* NAVBAR BODY ---> LEFT SIDE */
+.leftSide__container {
+  width: 78%;
+}
+
+.navbarPlaceLogo__containet {
+  width: 330px;
+  font-size: 28px;
+
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__button {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* NAVBAR BODY ---> RIGHT SIDE */
+.rightSide__container {
+  width: 22%;
+  height: 60px;
+}
+
+.navbarButton__container {
+  width: 300px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar__button {
+  color: white;
+  cursor: pointer;
+}
+
+.navbar__button:hover {
+  color: orange;
+}
+
+@media (max-width: 1025px) {
+  .rightSide__container {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 769px) {
+  .rightSide__container {
+    margin-right: 185px;
+  }
+}
+
+@media (max-width: 375px) {
+  .rightSide__container {
+    margin-right: 130px;
+  }
+  .leftSide__container {
+    width: 43%;
+    font-size: 8px;
+  }
+  .navbarPlaceLogo__containet {
+    width: 140px;
+  }
+  .navbarButton__container {
+    width: 214px;
+  }
+}

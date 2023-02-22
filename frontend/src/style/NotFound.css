@@ -1,0 +1,14 @@
+.notFound {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFound__image {
+  width: 400px;
+  height: 500px;
+  background-image: url(../assets/notFound.png);
+  background-repeat: no-repeat;
+}
