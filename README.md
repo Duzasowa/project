@@ -37,9 +37,9 @@ The solution should contain the following elements:
 ### Breakpoints
 
 ```
-Mobile: 375px -> 767px
-Tablet: 768px -> 1023px
-Desktop: >= 1024px
+Mobile: 375px -> 767px (Only 375px)
+Tablet: 768px -> 1023px (Only 768px)
+Desktop: >= 1024px (Only 1024px)
 ```
 
 ### Design guidelines
